@@ -12,5 +12,6 @@ public class Main {
         myMRNA.createCopy(myDna.getDnaSequence());
         ArrayList<String> protein = Ribosome.createProtein(myMRNA.getMessengerDna());
         myDna.printPeptide(protein);
+
     }
 }
